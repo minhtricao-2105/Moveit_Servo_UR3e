@@ -2,3 +2,4 @@ rospy
 moveit_servo
 ur_driver (melodic version)
 joy
+PeterCorke Robotics Toolbox

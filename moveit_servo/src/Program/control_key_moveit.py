@@ -10,7 +10,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 # Append the parent directory of the script directory to the Python path
 sys.path.append(os.path.join(script_dir, ".."))
 
-from Controller.keyboard import KeyBoardController
+from moveit_servo.src.Controller.keyboard_moveit_servo import KeyBoardController
 
 def main(stdscr):
     # Clear and refresh the curses window

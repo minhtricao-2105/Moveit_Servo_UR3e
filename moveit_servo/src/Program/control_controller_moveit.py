@@ -7,7 +7,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 # Append the parent directory of the script directory to the Python path
 sys.path.append(os.path.join(script_dir, ".."))
 
-from Controller.controller import Controller
+from moveit_servo.src.Controller.controller_moveit_servo import Controller
 from utils.config import*
 
 config = load_main_config()
